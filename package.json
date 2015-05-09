@@ -4,7 +4,7 @@
   "description": "Apple iOS UICatalog app",
   "main": "apps.json",
   "scripts": {
-    "install": "grunt default"
+    "install": "node -e \"require('grunt').tasks(['default']);\""
   },
   "repository": {
     "type": "git",
